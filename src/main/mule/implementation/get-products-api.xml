@@ -10,7 +10,7 @@ output application/json
   productID: "1234546",
   productName: "Mulesoft traninig 4.X",
   productProvider: "Mulesoft",
-  productDesciption: "complete the course on Mulesoft from beginner"
+  productDesciption: "complete the course on Mulesoft from beginner to expert"
 }]]></ee:set-payload>
             </ee:message>
         </ee:transform>
