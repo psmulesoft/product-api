@@ -8,7 +8,7 @@ output application/json
 ---
 {
   productID: "1234546",
-  productName: "Mulesoft traninig",
+  productName: "Mulesoft traninig 4.X",
   productProvider: "Mulesoft",
   productDesciption: "complete the course"
 }]]></ee:set-payload>
