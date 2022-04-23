@@ -29,7 +29,7 @@
 						<version>${mule.maven.plugin.version}</version>
 						<extensions>true</extensions>
 						<configuration>
-							<cloudHubDeployment>						
+							<cloudHubDeployment>
 								<username>${username}</username>
 								<password>${password}</password>
 								<applicationName>ps-dev-product-api</applicationName>
@@ -78,6 +78,11 @@
 	</profiles>
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-install-plugin</artifactId>
+				<version>3.0.0-M1</version>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-clean-plugin</artifactId>
