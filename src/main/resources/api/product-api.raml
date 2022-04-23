@@ -1,0 +1,21 @@
+#%RAML 1.0
+title: product-api
+baseUri: http://localhost:8082/products
+/products:
+  get:
+    description: To ger Products
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "productID":"1234546",
+                "productName":"Mulesoft traninig",
+                "productProvider":"Mulesoft",
+                "productDesciption":"complete the course"
+
+              }
+              
+    
+      
